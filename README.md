@@ -1,1 +1,1 @@
-# gophish-buildbot
+# gir-buildbot

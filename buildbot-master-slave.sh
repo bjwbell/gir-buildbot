@@ -5,9 +5,9 @@ cd bb-master
 
 ./bin/pip install --pre buildbot[bundle]
 ./bin/buildbot create-master master
-git clone https://github.com/bjwbell/gophish-buildbot
-mv gophish-buildbot/master.cfg master/master.cfg
-rm -rf gophish-buildbot
+git clone https://github.com/bjwbell/gir-buildbot
+mv gir-buildbot/master.cfg master/master.cfg
+rm -rf gir-buildbot
 
 # Start the master
 ./bin/buildbot start master
